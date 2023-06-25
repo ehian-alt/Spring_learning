@@ -81,7 +81,7 @@ public class App {
 
 ## 实现FactoryBean实例化bean
 
-![img.png](img/img.png)
+![img.png](img.png)
 ```
 <!-- class 是实现FactoryBean的类 -->
 <bean id="userDao" class="factoryBean"/>
