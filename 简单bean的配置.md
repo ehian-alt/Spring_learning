@@ -98,3 +98,11 @@ public class App {
 * 第二种方法，实现接口，重写方法  
      * `InitializingBean` 接口，初始化
      * `DisposableBean` 接口，销毁
+
+关闭容器  
+ConfigurableApplicationContext
+* close();
+* registerShutdownHook();
+
+
+
